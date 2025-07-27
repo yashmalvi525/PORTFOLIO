@@ -62,7 +62,7 @@ export const myProjects = [
     desc: 'PrepWise is a futuristic AI interview simulator that conducts real-time, ultra-low-latency voice conversations, delivering human-like mock interviews via Vapi AI. Users struggle to distinguish AI from a real interviewer.',
     subdesc:
       'Built with Next.js, Tailwind CSS, Firebase, Vapi AI, Gemini, and shadcn/ui. Auto-generates company-specific, role-aware questions using Gemini and web scraping.',
-    href: 'https://github.com/yashmalvi525',
+    href: 'https://ai-interview-platform-alpha.vercel.app/',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project-logo1.png',
     logoStyle: {
@@ -74,23 +74,23 @@ export const myProjects = [
     tags: [
       {
         id: 1,
+        name: 'Next.js',
+        path: '/assets/nextjs.svg',
+      },
+      {
+        id: 2,
         name: 'React.js',
         path: '/assets/react.svg',
       },
       {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
         id: 3,
-        name: 'Firebase',
-        path: '/assets/firebase.png',
+        name: 'TailwindCSS',
+        path: '/assets/tailwindcss.png',
       },
       {
         id: 4,
-        name: 'Vapi AI',
-        path: '/assets/ai.png',
+        name: 'Firebase',
+        path: '/assets/firebase.svg',
       },
     ],
   },
@@ -99,7 +99,7 @@ export const myProjects = [
     desc: 'Rupeek.ai acts like an intelligent Chartered Accountant, integrating Fi\'s MCP server to fetch live net worth from banks, SIPs, stocks, credit scores, liabilities, and assets with structured financial chat.',
     subdesc:
       'Built with React, Node.js, Firebase, MongoDB, and Generative AI. Features smart goal planner that automatically allocates funds monthly with optimization suggestions.',
-    href: 'https://github.com/yashmalvi525',
+    href: 'https://kqzwwbbz.manus.space/',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/project-logo2.png',
     logoStyle: {
@@ -117,17 +117,17 @@ export const myProjects = [
       {
         id: 2,
         name: 'Node.js',
-        path: '/assets/nodejs.png',
+        path: '/assets/nodejs.svg',
       },
       {
         id: 3,
         name: 'MongoDB',
-        path: '/assets/mongodb.png',
+        path: '/assets/mongodb.svg',
       },
       {
         id: 4,
         name: 'Firebase',
-        path: '/assets/firebase.png',
+        path: '/assets/firebase.svg',
       },
     ],
   },
@@ -150,23 +150,23 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'N8N',
-        path: '/assets/n8n.png',
+        name: 'Notion',
+        path: '/assets/notion.svg',
       },
       {
         id: 2,
         name: 'MongoDB',
-        path: '/assets/mongodb.png',
+        path: '/assets/mongodb.svg',
       },
       {
         id: 3,
-        name: 'Twilio',
-        path: '/assets/twilio.png',
+        name: 'Node.js',
+        path: '/assets/nodejs.svg',
       },
       {
         id: 4,
-        name: 'AI',
-        path: '/assets/ai.png',
+        name: 'TypeScript',
+        path: '/assets/typescript.png',
       },
     ],
   },
@@ -187,23 +187,23 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'C++',
-        path: '/assets/cpp.png',
+        name: 'React.js',
+        path: '/assets/react.svg',
       },
       {
         id: 2,
-        name: 'OOP',
-        path: '/assets/oop.png',
+        name: 'TypeScript',
+        path: '/assets/typescript.png',
       },
       {
         id: 3,
-        name: 'Design Patterns',
-        path: '/assets/design.png',
+        name: 'Terminal',
+        path: '/assets/terminal.png',
       },
       {
         id: 4,
-        name: 'System Design',
-        path: '/assets/system.png',
+        name: 'GitHub',
+        path: '/assets/github.svg',
       },
     ],
   },
