@@ -1,30 +1,42 @@
-# 🚀 3D Developer Portfolio (Three.js + React)
+# 🚀 Yash Malvi – 3D Developer Portfolio
 
-Welcome to my personal developer portfolio built with **Three.js**, **React**, and **Tailwind CSS**. This interactive site showcases my projects, skills, and passion for web development using modern frontend technologies and 3D design.
+This is my personal 3D portfolio website built using **Three.js**, **React**, and **Tailwind CSS**. It features a stunning interactive experience, a showcase of my work, and everything you need to know about me as a developer.
+
+Originally inspired by the JavaScript Mastery project, but customized to reflect my journey and skills.
+
+---
 
 ## 🔥 Features
 
-- 3D Hacker Room Scene (Three.js + @react-three/fiber)
-- Smooth Animations using Framer Motion
-- Projects Showcase
-- Downloadable Resume
-- Contact Form with Email Integration
-- Responsive and Mobile-First Design
+- 🧠 Interactive 3D hacker-themed room
+- 💼 Project highlights with animations
+- 📥 Downloadable resume
+- 📧 Contact form with EmailJS integration
+- 📱 Fully responsive (mobile + desktop)
+- 🎨 Smooth transitions using Framer Motion
+
+---
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React, Tailwind CSS, Framer Motion
-- **3D Graphics:** Three.js, @react-three/fiber, Drei
-- **Email Service:** EmailJS
-- **Deployment:** Vercel / Netlify
+- **Frontend**: React, Tailwind CSS, Framer Motion
+- **3D**: Three.js, @react-three/fiber, Drei
+- **Email**: EmailJS
+- **Deployment**: Vercel / Netlify
+
+---
 
 ## 📸 Screenshots
 
-| Home Page | Projects | Contact |
-|-----------|----------|---------|
-| ![screenshot](./public/home.png) | ![screenshot](./public/projects.png) | ![screenshot](./public/contact.png) |
+(Using the same screenshots from the original repo)
 
-## 🧑‍💻 How to Run Locally
+| Landing Page | Projects | Contact |
+|--------------|----------|---------|
+| ![Landing](./public/landing.png) | ![Projects](./public/projects.png) | ![Contact](./public/contact.png) |
+
+---
+
+## 🚀 Getting Started Locally
 
 ```bash
 # Clone the repository
@@ -34,5 +46,5 @@ cd PORTFOLIO
 # Install dependencies
 npm install
 
-# Start the development server
+# Run locally
 npm run dev
