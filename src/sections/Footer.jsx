@@ -8,18 +8,18 @@ const Footer = () => {
       </div>
 
       <div className="flex gap-3">
-        <div className="social-icon">
+        <a href="https://github.com/yashmalvi525" target="_blank" rel="noopener noreferrer" className="social-icon">
           <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
-        </div>
-        <div className="social-icon">
-          <img src="/assets/twitter.svg" alt="twitter" className="w-1/2 h-1/2" />
-        </div>
-        <div className="social-icon">
-          <img src="/assets/instagram.svg" alt="instagram" className="w-1/2 h-1/2" />
-        </div>
+        </a>
+        <a href="https://linkedin.com/in/yash-malvi" target="_blank" rel="noopener noreferrer" className="social-icon">
+          <img src="/assets/twitter.svg" alt="linkedin" className="w-1/2 h-1/2" />
+        </a>
+        <a href="mailto:yashlohar158@gmail.com?subject=Contact from Portfolio&body=Hi Yash, I visited your portfolio and would like to connect." className="social-icon">
+          <img src="/assets/instagram.svg" alt="email" className="w-1/2 h-1/2" />
+        </a>
       </div>
 
-      <p className="text-white-500">© 2024 Adrian Hajdin. All rights reserved.</p>
+      <p className="text-white-500">© 2025 Yash Malvi. All rights reserved.</p>
     </footer>
   );
 };

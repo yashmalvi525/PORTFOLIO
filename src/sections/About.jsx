@@ -7,7 +7,7 @@ const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText(' adrian@jsmastery.pro');
+    navigator.clipboard.writeText('yashlohar158@gmail.com');
     setHasCopied(true);
 
     setTimeout(() => {
@@ -23,10 +23,10 @@ const About = () => {
             <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Hi, I’m Adrian Hajdin</p>
+              <p className="grid-headtext">Hi, I’m Yash Malvi</p>
               <p className="grid-subtext">
-                With 12 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
-                and responsive websites.
+                I'm a 4th-year CSE student at Parul University (CGPA: 8.25/10) passionate about DSA, backend development, and building impactful AI products. 
+                I've built PrepWise, an AI-powered interview platform, and won multiple hackathons including PU Code Hackathon (INR 1.5L prize).
               </p>
             </div>
           </div>
@@ -58,12 +58,12 @@ const About = () => {
                 showGraticules
                 globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
                 bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
-                labelsData={[{ lat: 40, lng: -100, text: 'Rjieka, Croatia', color: 'white', size: 15 }]}
+                labelsData={[{ lat: 22.3072, lng: 73.1812, text: 'Vadodara, India', color: 'white', size: 15 }]}
               />
             </div>
             <div>
-              <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
-              <p className="grid-subtext">I&apos;m based in Rjieka, Croatia and open to remote work worldwide.</p>
+              <p className="grid-headtext">I’m based in Vadodara, India, and open to global collaborations</p>
+              <p className="grid-subtext">I'm passionate about building impactful solutions in AI and tech.</p>
               <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
             </div>
           </div>
@@ -76,8 +76,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">My Passion for Coding</p>
               <p className="grid-subtext">
-                I love solving problems and building things through code. Programming isn&apos;t just my
-                profession—it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
+                Solving complex problems and building innovative solutions fuel my passion for technology. I am dedicated to advancing my skills and exploring new frontiers in digital innovation.
               </p>
             </div>
           </div>
@@ -95,7 +94,10 @@ const About = () => {
               <p className="grid-subtext text-center">Contact me</p>
               <div className="copy-container" onClick={handleCopy}>
                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
-                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">adrian@jsmastery.pro</p>
+                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">yashlohar158@gmail.com</p>
+              </div>
+              <div className="text-center mt-2">
+                <p className="text-white-600">+91-8955984992</p>
               </div>
             </div>
           </div>

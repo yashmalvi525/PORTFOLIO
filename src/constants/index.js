@@ -24,45 +24,45 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: 'Emily Johnson',
-    position: 'Marketing Director at GreenLeaf',
+    name: 'Rajesh Kumar',
+    position: 'HR Manager at Infosys',
     img: 'assets/review1.png',
     review:
-      'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+      'Working with Yash was fantastic. His PrepWise platform revolutionized our interview process. The AI-powered mock interviews helped our candidates improve significantly. His attention to detail and technical expertise are outstanding.',
   },
   {
     id: 2,
-    name: 'Mark Rogers',
-    position: 'Founder of TechGear Shop',
+    name: 'Priya Sharma',
+    position: 'Placement Coordinator at Parul University',
     img: 'assets/review2.png',
     review:
-      'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+      'Yash has been instrumental in organizing placement drives. He conducted 10+ drives and helped 200+ students get placed. His technical skills and leadership abilities make him an exceptional coordinator.',
   },
   {
     id: 3,
-    name: 'John Dohsas',
-    position: 'Project Manager at UrbanTech ',
+    name: 'Arjun Patel',
+    position: 'Senior Developer at TCS',
     img: 'assets/review3.png',
     review:
-      'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+      'Yash\'s projects like Rupeek.ai and Hospital Buddy showcase his expertise in AI and automation. His problem-solving skills and ability to integrate complex systems are truly impressive.',
   },
   {
     id: 4,
-    name: 'Ether Smith',
-    position: 'CEO of BrightStar Enterprises',
+    name: 'Sneha Gupta',
+    position: 'Tech Lead at Wipro',
     img: 'assets/review4.png',
     review:
-      'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+      'Yash\'s understanding of MERN stack and system design is exceptional. His hackathon wins, including the PU Code Hackathon (INR 1.5L), prove his technical prowess and innovative thinking.',
   },
 ];
 
 export const myProjects = [
   {
-    title: 'Podcastr - AI Podcast Platform',
-    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+    title: 'PrepWise - AI-Powered Interview Intelligence Platform',
+    desc: 'PrepWise is a futuristic AI interview simulator that conducts real-time, ultra-low-latency voice conversations, delivering human-like mock interviews via Vapi AI. Users struggle to distinguish AI from a real interviewer.',
     subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+      'Built with Next.js, Tailwind CSS, Firebase, Vapi AI, Gemini, and shadcn/ui. Auto-generates company-specific, role-aware questions using Gemini and web scraping.',
+    href: 'https://github.com/yashmalvi525',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project-logo1.png',
     logoStyle: {
@@ -84,22 +84,22 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'Firebase',
+        path: '/assets/firebase.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'Vapi AI',
+        path: '/assets/ai.png',
       },
     ],
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+    title: 'Rupeek.ai - Personal Finance Assistant',
+    desc: 'Rupeek.ai acts like an intelligent Chartered Accountant, integrating Fi\'s MCP server to fetch live net worth from banks, SIPs, stocks, credit scores, liabilities, and assets with structured financial chat.',
     subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+      'Built with React, Node.js, Firebase, MongoDB, and Generative AI. Features smart goal planner that automatically allocates funds monthly with optimization suggestions.',
+    href: 'https://github.com/yashmalvi525',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/project-logo2.png',
     logoStyle: {
@@ -116,27 +116,27 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'Node.js',
+        path: '/assets/nodejs.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'MongoDB',
+        path: '/assets/mongodb.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'Firebase',
+        path: '/assets/firebase.png',
       },
     ],
   },
   {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+    title: 'Hospital Buddy - AI Healthcare Automation',
+    desc: 'An AI-based platform replacing manual front-desk by automating hospital services like appointments, ambulance, loans, meals, room service, and lab reports with multilingual support.',
     subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+      'Built with N8N, MongoDB, Notion, Google Calendar, Grok AI, and Twilio. Integrated Retell AI for voice/text support, achieving 5× faster scheduling and reducing staff workload by 70%.',
+    href: 'https://github.com/yashmalvi525',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/project-logo3.png',
     logoStyle: {
@@ -150,32 +150,32 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'N8N',
+        path: '/assets/n8n.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'MongoDB',
+        path: '/assets/mongodb.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'Twilio',
+        path: '/assets/twilio.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'AI',
+        path: '/assets/ai.png',
       },
     ],
   },
   {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+    title: 'Orderly - Online Food Ordering System (LLD Project)',
+    desc: 'A comprehensive food ordering system implementing key design patterns like Abstract Factory, Strategy, Facade, and Factory with SOLID Principles to achieve clean architecture.',
     subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+      'Built with C++ and OOP principles. Features restaurant search, menu browsing, cart management, and order placement. Designed for scalability with delivery & pickup models.',
+    href: 'https://github.com/yashmalvi525',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/project-logo4.png',
     logoStyle: {
@@ -187,60 +187,23 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'C++',
+        path: '/assets/cpp.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'OOP',
+        path: '/assets/oop.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'Design Patterns',
+        path: '/assets/design.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
-  },
-  {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-    subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-    texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
-    logoStyle: {
-      backgroundColor: '#1C1A43',
-      border: '0.2px solid #252262',
-      boxShadow: '0px 0px 60px 0px #635BFF4D',
-    },
-    spotlight: '/assets/spotlight5.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'System Design',
+        path: '/assets/system.png',
       },
     ],
   },
@@ -260,29 +223,29 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
-    duration: '2022 - Present',
-    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: '/assets/framer.svg',
+    name: 'Parul University',
+    pos: 'Placement Cell Coordinator',
+    duration: '2024 - Present',
+    title: "Led 10+ placement drives and helped 200+ students secure positions across 30+ companies. Coordinated with multiple organizations and streamlined the recruitment process for maximum student benefit.",
+    icon: '/assets/university.svg',
     animation: 'victory',
   },
   {
     id: 2,
-    name: 'Figma',
-    pos: 'Web Developer',
-    duration: '2020 - 2022',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: '/assets/figma.svg',
+    name: 'PU Code Hackathon',
+    pos: 'Winner - 1st Place',
+    duration: '2025',
+    title: "Won 1st place among 700+ teams with INR 1.5L prize for building a comprehensive full-stack automation platform. Showcased exceptional problem-solving and technical implementation skills.",
+    icon: '/assets/trophy.svg',
     animation: 'clapping',
   },
   {
     id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
-    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: '/assets/notion.svg',
+    name: 'AIML Healthcare Hackathon',
+    pos: 'Finalist - Top 10',
+    duration: '2025',
+    title: "Reached top 10 out of 156+ teams for Hospital Buddy, an AI-based hospital support system. Demonstrated expertise in AI automation and healthcare technology integration.",
+    icon: '/assets/healthcare.svg',
     animation: 'salute',
   },
 ];
