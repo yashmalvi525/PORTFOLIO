@@ -12,10 +12,10 @@ const Footer = () => {
           <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
         </a>
         <a href="https://linkedin.com/in/yash-malvi" target="_blank" rel="noopener noreferrer" className="social-icon">
-          <img src="/assets/twitter.svg" alt="linkedin" className="w-1/2 h-1/2" />
+          <img src="/assets/linkedin.svg" alt="linkedin" className="w-1/2 h-1/2" />
         </a>
         <a href="mailto:yashlohar158@gmail.com?subject=Contact from Portfolio&body=Hi Yash, I visited your portfolio and would like to connect." className="social-icon">
-          <img src="/assets/instagram.svg" alt="email" className="w-1/2 h-1/2" />
+          <img src="/assets/email.svg" alt="email" className="w-1/2 h-1/2" />
         </a>
       </div>
 
