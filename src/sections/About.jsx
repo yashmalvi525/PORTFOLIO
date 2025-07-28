@@ -11,6 +11,7 @@ const About = () => {
     setHasCopied(true);
 
     setTimeout(() => {
+      
       setHasCopied(false);
     }, 2000);
   };
