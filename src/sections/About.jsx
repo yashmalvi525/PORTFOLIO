@@ -65,7 +65,13 @@ const About = () => {
             <div>
               <p className="grid-headtext">I’m based in Vadodara, India, and open to global collaborations</p>
               <p className="grid-subtext">I'm passionate about building impactful solutions in AI and tech.</p>
-              <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+              <a 
+                href="/resume/yash_prep.pdf" 
+                download="Yash_Malvi_Resume.pdf"
+                className="w-full mt-10 block"
+              >
+                <Button name="Download Resume" isBeam containerClass="w-full" />
+              </a>
             </div>
           </div>
         </div>
