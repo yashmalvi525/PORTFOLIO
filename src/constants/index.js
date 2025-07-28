@@ -24,35 +24,39 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: 'Rajesh Kumar',
-    position: 'HR Manager at Infosys',
-    img: 'assets/review1.png',
+    name: 'Khushal Parmar',
+    position: 'My Hackathon Buddy',
+    img: 'assets/linkedin.svg',
+    linkedin: 'https://www.linkedin.com/in/khushalparmar/',
     review:
-      'Working with Yash was fantastic. His PrepWise platform revolutionized our interview process. The AI-powered mock interviews helped our candidates improve significantly. His attention to detail and technical expertise are outstanding.',
+      'Yash is an incredible team player! We\'ve participated in multiple hackathons together and even won some. His problem-solving approach and coding skills are outstanding. He brings great energy and innovative ideas to every project we work on.',
   },
   {
     id: 2,
-    name: 'Priya Sharma',
-    position: 'Placement Coordinator at Parul University',
-    img: 'assets/review2.png',
+    name: 'Suresh Lohar',
+    position: 'Software Engineer at Deloitte',
+    img: 'assets/linkedin.svg',
+    linkedin: 'https://www.linkedin.com/in/skl31101998/',
     review:
-      'Yash has been instrumental in organizing placement drives. He conducted 10+ drives and helped 200+ students get placed. His technical skills and leadership abilities make him an exceptional coordinator.',
+      'I know Yash personally and would highly recommend him. His technical skills in full-stack development and AI are impressive. He has a great work ethic and is always eager to learn new technologies. Any team would be lucky to have him.',
   },
   {
     id: 3,
-    name: 'Arjun Patel',
-    position: 'Senior Developer at TCS',
-    img: 'assets/review3.png',
+    name: 'Vandan Nandwana',
+    position: 'Android Developer at Afformed Tech',
+    img: 'assets/linkedin.svg',
+    linkedin: 'https://www.linkedin.com/in/vandannandwana/',
     review:
-      'Yash\'s projects like Rupeek.ai and Hospital Buddy showcase his expertise in AI and automation. His problem-solving skills and ability to integrate complex systems are truly impressive.',
+      'I\'ve had the pleasure of collaborating with Yash on several projects. He is very talented and enthusiastic about his work. His technical expertise in AI and full-stack development is impressive, and he\'s always willing to go the extra mile.',
   },
   {
     id: 4,
-    name: 'Sneha Gupta',
-    position: 'Tech Lead at Wipro',
-    img: 'assets/review4.png',
+    name: 'Aditya Bhamre',
+    position: 'Frontend Developer at CradleWise',
+    img: 'assets/linkedin.svg',
+    linkedin: '#',
     review:
-      'Yash\'s understanding of MERN stack and system design is exceptional. His hackathon wins, including the PU Code Hackathon (INR 1.5L), prove his technical prowess and innovative thinking.',
+      'I know Yash and can say he is truly great at what he does. His passion for technology and problem-solving approach is remarkable. He has excellent technical skills and a positive attitude that makes him a valuable asset to any project.',
   },
 ];
 
